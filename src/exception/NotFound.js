@@ -1,4 +1,4 @@
-module.exports = class NotFoundException extends Error {
+module.exports = class NotFound extends Error {
     constructor() {
         super('Not Found');
         this.name = this.constructor.name;

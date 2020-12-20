@@ -1,4 +1,4 @@
-module.exports = class MethodNotAllowedException extends Error {
+module.exports = class MethodNotAllowed extends Error {
     constructor() {
         super('Method Not Allowed');
         this.name = this.constructor.name;

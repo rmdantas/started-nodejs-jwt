@@ -2,10 +2,10 @@
   "name": "started-nodejs-jwt",
   "version": "1.0.0",
   "description": "needed to start a project using nodejs and jwt",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon node server.js"
+    "start": "nodemon node src/server.js"
   },
   "repository": {
     "type": "git",
